@@ -7,12 +7,14 @@ import exercise2_2.LogicalOpTable;
 import exercise3_2.Help2;
 */
 import exercise3_3.Help3;
+import exercise5_1.Buble;
 
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
+
 
         PrimeNumber primeNumber = new PrimeNumber();
 
@@ -26,6 +28,9 @@ public class Main {
         help3.mHelp();
 
 
+        Buble buble = new Buble();
+
+        buble.printSort();
 
 
 
